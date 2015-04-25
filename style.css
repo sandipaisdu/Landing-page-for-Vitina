@@ -1,0 +1,50 @@
+*{
+margin: 0;
+    padding: 0;
+}
+
+html { 
+    background-image: url('img/bg.jpg'); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: cover;
+
+}
+.headline{
+color: #a7a0a3;
+font-family: "Montserrat",sans-serif;
+margin-bottom: 45px;
+margin-top: 200px;
+text-align: center;
+text-transform: uppercase;
+}
+.headline h4{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.logo {
+  text-align: center;
+  
+}
+
+
+.contact {
+  text-align: center;
+font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    color: #a7a0a3;
+    text-transform: uppercase;
+}
+
+.contact a{
+color: #a7a0a3;
+}
+.contact a:hover{
+color: #716767;
+}
+.contact p{
+font-size: 12px;
+    font-weight: 400;
+}

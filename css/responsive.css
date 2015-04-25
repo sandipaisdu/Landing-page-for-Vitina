@@ -1,0 +1,92 @@
+/* Default Layout: 992px.  */
+
+html {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.logo img {
+    width: 315px;
+    height: 46px;
+    margin-bottom: 50px;
+}
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    html {
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .headline {
+        margin-bottom: 55px;
+        margin-top: 115px;
+    }
+    .logo img {
+        height: 30px;
+        width: 205px;
+    }
+    .contact {
+        line-height: 20px;
+        margin: 0 auto;
+        width: 238px;
+    }
+}
+/* Mobile Layout: 320px. */
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    html {
+        background-image: url('../img/bg_mobile.jpg');
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .headline {
+        margin-bottom: 25px;
+        margin-top: 100px;
+    }
+    .logo img {
+        margin-bottom: 15px;
+        width: 215px;
+    }
+    .contact {
+        margin: 0 auto;
+        width: 300px;
+    }
+}
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (max-width: 767px) {
+    html {
+        background-image: url('../img/bg_mobile.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+    }
+    .logo img {
+        height: 25px;
+        width: 100px;
+    }
+    .contact p {
+        line-height: 20px;
+        margin: 0 auto;
+        width: 130px;
+        font-size:7px
+    }
+    .headline h4 {
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .headline {
+        margin-bottom: 40px;
+        margin-top: 80px;
+    }
+}
